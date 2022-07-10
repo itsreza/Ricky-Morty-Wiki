@@ -1,0 +1,36 @@
+@import "../../shared/styles/responsive.module";
+
+.card_section {
+    display: flex;
+    flex-wrap: wrap;
+  > div {
+    margin: 0px 10px 10px 10px;
+    @include respond(large-desktop){
+      flex: 23%;
+    }
+
+    @include respond(small-desktop){
+      flex: 31%;
+    }
+
+    @include respond(tab-land){
+      flex: 33%;
+    }
+
+@include respond(tab-port){
+    flex: 100%;
+}
+  }
+}
+
+.finish_record {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.loading {
+  display : flex
+}

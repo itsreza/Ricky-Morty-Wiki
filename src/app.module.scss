@@ -1,0 +1,26 @@
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.app {
+    max-width: 2400px;
+    margin: 0 auto;
+    background:  #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+
+> h2 {
+ font-size: 34px;
+ font-weight: 700;
+ color: #333;
+ margin: 0px 10px;
+}
+
+> h3 {
+    font-weight: 500;
+    margin: 0px 10px;
+    font-size: 27px;
+    color: #333;
+}
+.app_layout {
+    margin-top: 20px;
+}
+}

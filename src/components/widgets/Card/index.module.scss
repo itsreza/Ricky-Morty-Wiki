@@ -1,0 +1,95 @@
+
+@import "../../../shared/styles/responsive.module";
+
+
+
+.card_container {
+
+    // @include respond(tab-port) {
+    //    background: red;
+    //   }
+
+//     /* Extra small devices (phones, 600px and down) */
+// // @media only screen and (max-width: 600px) {
+// // background: red;
+// // }
+
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (max-width: 720px) {
+//     background: blue;
+//     flex: 1 1 100%;
+// }
+
+// // /* Medium devices (landscape tablets, 768px and up) */
+// // @media only screen and (min-width: 768px) {
+// // background: green;
+// // }
+
+// /* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width : 721px) and (max-width: 1000px) {
+// background: yellow;
+// flex: 1 0 33.33%;
+// }
+
+// /* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (max-width: 1001px) and (max-width: 1310px) {
+// flex: 1 0 31%;
+// }
+
+// @media only screen and  (min-width: 1311px) {
+//     flex: 1 0 21%;
+//     }
+
+//     @media only screen and (max-width: 720px) {
+//         flex: 1!important;
+//     }
+    
+    
+// @media only screen and (max-width: 1310px) {
+//     flex: 1 0 31%;
+// }
+
+
+
+// @media only screen and (max-width: 1000px) {
+//     flex: 1 0 33.33%;
+// }
+
+//   flex: 1 0 21%;
+background: #fff;
+color : #666;
+box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+border-radius: 5px;
+
+&:hover {
+    box-shadow: 0 14px 25px rgb(0 0 0 / 16%);
+}
+
+.card_header {
+    position: relative;
+    width: 100%;
+    .image_badge {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+}
+
+.card_body {
+padding: 20px;
+.episode_section {
+    display: flex;
+    flex-direction: column;
+}
+.body_badge_section > span {
+    margin-right: 5px;
+}
+}
+
+.card_footer {
+ border-top: 1px solid #e5e5e5;
+ padding: 13px 20px;
+}
+
+}

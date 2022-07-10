@@ -1,0 +1,39 @@
+.accordion_header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+
+& :hover {
+    color: #000;
+ }   
+
+&_title {
+    font-size: 20px;
+    color: #666;
+  
+}
+&_icon {
+    color: #565656;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+}
+
+.accordion_body {
+    margin : 10px 0px;
+    .show {
+        display: block;
+    // transition: .1s ease-in-out;
+    transition: visibility 0s, opacity 2s linear;
+    .content {
+        opacity: 1;
+    }
+    }
+    .hidden {
+        display: none!important;
+        
+    }
+}
+   

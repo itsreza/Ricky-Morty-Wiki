@@ -1,0 +1,37 @@
+
+  @keyframes animate {
+    from {
+      transform: rotateX(20deg);
+      opacity: 0;
+  
+    }
+    to {
+      transform: rotateX(0deg);
+      opacity: 1;
+    }
+  }
+
+
+  /* skeleton animation */
+@keyframes loader {
+    from {
+      background-position: -100% 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+
+
+
+  .skeleton {
+border-radius: 5px;
+    background: linear-gradient(
+      90deg,
+      hsl(210, 15%, 88%),
+      hsl(210, 15%, 95%),
+      hsl(210, 15%, 88%)
+    );
+    background-size: 200%;
+    animation: loader 1s infinite reverse;
+  }

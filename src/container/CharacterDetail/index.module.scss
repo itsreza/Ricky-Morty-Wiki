@@ -1,0 +1,28 @@
+
+.character_detail_container {
+    .episode_accordions {
+        margin-top: 15px;
+    }
+    // margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    .left_side_container {
+        margin-right: 10px;
+        .location_card {
+            margin-top: 10px;
+        }
+    }
+
+    .right_side_container {
+       .title {
+        font-size: 22px;
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 20px;
+       }
+
+       .episode_characters {
+        margin-top: 8px;
+       }
+    }
+}
